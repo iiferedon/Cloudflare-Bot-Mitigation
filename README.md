@@ -1,6 +1,3 @@
-
-<html lang="en">
-
     <h1>Cloudflare Worker Security Script</h1>
     <p>This script implements a basic security mechanism using Cloudflare Workers. It helps mitigate automated bot traffic and ensures session validation.</p>
     
@@ -15,4 +12,5 @@
     <h2>How It Works</h2>
     <p>The script validates users by storing an encrypted token in cookies and checking against the IP and timestamp on every request.</p>
 
-</html>
+
+
