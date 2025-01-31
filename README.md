@@ -10,6 +10,6 @@ This script implements a basic security mechanism using Cloudflare Workers. It h
 - **✅ Basic Obfuscation:** Uses a simple XOR encryption, but it's not strong enough to be considered secure encryption.
 
 ## How It Works
-
+A script that injects into the users browser.
 The script validates users by storing an encrypted token in cookies and checking against the IP and timestamp on every request.
 
